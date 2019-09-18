@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="loginformscript.js">
+           
+        </script>
+    </head>
+  <body bgcolor ="pink" text="red">
+      <h2>
+          <center>Login Form</center>
+      </h2>
+  </body>
+        
+    <form action="success.html" onsubmit="return check()">
+        <table cellspacing="10" cellpadding="10" align="center">
+            <tr>
+                <td>User Name</td>
+                <td>
+                        <input type="text" name="username" id="username">
+                </td>
+                <td><span id="error1"></span></td>
+            </tr>
+            <tr>
+                    <td>Password</td>
+                    <td>
+                            <input type="password" name="password" id="password">
+                    </td>
+                    <td><span id="error2"></span></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <input type="submit" value="Login">
+                            <input type="button" value="GO" onclick="alert('Go for vacation')">
+                    </td>
+                </tr>
+        </table>
+           
+            
+    
+           
+    </form>
+</html>

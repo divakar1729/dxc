@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            bill=parseInt(prompt("Enter the bill amount"))
+            c=new Date()
+            date=c.getDate()
+            if(date>15)
+            {
+                c=((date-15)*50)+bill
+                alert("total bill is"+c)
+            }
+            else{
+                alert("Total bill is"+bill)
+            }
+        </script>
+    </body>
+</html>
