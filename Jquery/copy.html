@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('body').bind('cut copy paste',function(e){
+                    alert("u can cut copy paste")
+                    e.preventDefault();
+                });
+                $("body").on("contextmenu",function(e){
+                    alert("u can't right click")
+                    return false;
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <p>Click me</p>
+    </body>
+</html>
